@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ecommerce_Testing" >
+
+	<test name="Ecommerce_Order">
+			<classes>
+				<class name="Test_Scripts_WEB.java_Script"></class>	
+			</classes>
+	</test>
+	
+	
+</suite>

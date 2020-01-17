@@ -1,0 +1,21 @@
+package Test_Scripts_IndiaLends;
+
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import Utility.Base;
+
+public class SBI_CCGenericscript extends Base
+{
+	@Test()
+	public void fillBasicDetailsPage() throws Exception 
+	{
+		
+		System.out.println("Driver valueE inside fillBasicDetailsPage() method is "+ driver);
+		Page_Objects_IndiaLends.SBI_CCGenericPage detailsPage = PageFactory.initElements(driver, Page_Objects_IndiaLends.SBI_CCGenericPage.class);
+		detailsPage.enterBasicdetailsToCheckLoanEligibility();
+		detailsPage.check_Eligibility();
+		detailsPage.general_Information();
+		detailsPage.contact_Details();
+	}
+}

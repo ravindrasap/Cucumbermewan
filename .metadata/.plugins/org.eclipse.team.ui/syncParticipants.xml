@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syncparticipants>
+<participant displayName="Team Foundation Server" id="com.microsoft.tfs.client.eclipse.ui.sync.SynchronizeParticipant" secondary_id="1548855106867">
+<data root="false">
+<org.eclipse.team.ui.TEAMSUBSRCIBERSETTINGS org.eclipse.team.ui.SCOPE_TYPE="WorkspaceScope">
+<org.eclipse.team.ui.TEAMSUBSRCIBER_REFRESHSCHEDULE org.eclipse.team.ui.CTX_REFRESHSCHEDULE_ENABLED="false" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_INTERVAL="3600" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_RUNONCE="false"/>
+</org.eclipse.team.ui.TEAMSUBSRCIBERSETTINGS>
+<com.microsoft.tfs.client.eclipse.ui.SYNCHRONIZEPARTICIPANT_SETTINGS com.microsoft.tfs.client.eclipse.ui.SYNCHRONIZEPARTICIPANT_SETTINGS.RESOURCES="C:\Users\ravindrakumar\eclipse-workspace\IndiaLends_Sanity/"/>
+</data>
+</participant>
+</syncparticipants>

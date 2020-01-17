@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IndiaLends_Testing" >
+
+	<test name="Personal_Loan_Details">
+			<classes>
+				<class name="Test_Scripts_IndiaLends.PL_Script"></class>	
+			</classes>
+	</test>
+	<test name="CR_Details_Filling">
+			<classes>
+				<class name="Test_Scripts_IndiaLends.CR_Script"></class>	
+			</classes>
+	</test>
+	
+	<test name="CC_AMEX_Details">
+			<classes>
+				<class name="Test_Scripts_AMEX_CCGenericScript"></class>	
+			</classes>
+	</test>
+	<test name="CC_CITI_Details">
+			<classes>
+				<class name="Test_Scripts_CITI_CCGenericScript"></class>	
+			</classes>
+	</test>
+	<test name="CC_HDFC_Details">
+			<classes>
+				<class name="Test_Scripts_HDFC_CCGenericScript"></class>	
+			</classes>
+	</test>
+	<test name="CC_ICICI_Details">
+			<classes>
+				<class name="Test_Scripts_ICICI_CCGenericScript"></class>	
+			</classes>
+	</test>
+	<test name="CC_SBI_Details">
+			<classes>
+				<class name="Test_Scripts_SBI_CCGeneric_Script"></class>	
+			</classes>
+	</test>
+	
+	
+</suite>

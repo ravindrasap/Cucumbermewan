@@ -1,0 +1,92 @@
+﻿Domain name,Certificateused,Validfrom,Validto,Alertdate,SerialNumber,Status
+@.indialends.com,indialends.com,18-01-2019,11-04-2020,05-04-2020,‎10 80 5d e1 85 51 c0 12,Working
+ameyo.indialends.com,*.indialends.com,15-06-2019,11-04-2020,04-04-2020,‎00 90 67 c2 d7 9a f4 9f 37 62 85 42 08 4e a4 f2 d3,Working
+ameyoapi.indialends.com,*.indialends.com,15-06-2019,11-04-2020,04-04-2020,00 90 67 c2 d7 9a f4 9f 37 62 85 42 08 4e a4 f2 d3,Working
+ameyoccapi.indialends.com,*.indialends.com,15-06-2019,11-04-2020,04-04-2020,00 90 67 c2 d7 9a f4 9f 37 62 85 42 08 4e a4 f2 d3,Working
+ameyoccuat.indialends.com,*.indialends.com,15-06-2019,11-04-2020,04-04-2020,00 90 67 c2 d7 9a f4 9f 37 62 85 42 08 4e a4 f2 d3,Working
+ameyoccuatapi.indialends.com,*.indialends.com,15-06-2019,11-04-2020,04-04-2020,00 90 67 c2 d7 9a f4 9f 37 62 85 42 08 4e a4 f2 d3,Working
+bigquery.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+blogs1.indialends.com,*.azurewebsites.net,10-05-2019,10-05-2021,03-05-2021,‎05 4c 65 ff 6b 4e 12 38 90 53 3b 09 5c 71 79 cd,Working
+bridge.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+bridge_uat.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+ccapi.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+ccapiengine.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+ccapistaging.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+ccapiuat.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+cibilconnect.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+citicc.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+citiccstaging.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+crm.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+crmcc.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+crmccstaging.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+crmccuat.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+crmuat.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+exprefresh.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+getforce.indialends.com,*.azurewebsites.net,10-05-2019,10-05-2021,03-05-2021,‎05 4c 65 ff 6b 4e 12 38 90 53 3b 09 5c 71 79 cd,Working
+idfc.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+ccapiengine.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+ccapistaging.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+ccapiuat.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+cibilconnect.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+citicc.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+citiccstaging.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+sp-offline.indialends.com,*.azurewebsites.net,10-05-2019,10-05-2021,03-05-2021,‎05 4c 65 ff 6b 4e 12 38 90 53 3b 09 5c 71 79 cd,Working
+sp-online.indialends.com,*.azurewebsites.net,10-05-2019,10-05-2021,03-05-2021,‎05 4c 65 ff 6b 4e 12 38 90 53 3b 09 5c 71 79 cd,Working
+tempuat.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+uat.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+v.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+vdev.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+vstaging.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+vuat.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+vuat-new.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+webapi.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+webapiuat.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+webcc.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+bigquery.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+apimgmt.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+apimgmtlive.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+apiportal.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+apiscm.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+blog.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+blogs.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+ccuat.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+cdn.indialends.com, cert0044-azurecdn.akamaized.net,26-09-2019,05-03-2020,01-03-2020,04 76 33 48 58 14 83 4e 52 b6 74 a2 4f de 22 01 c5 73,Working
+cdnapp.indialends.com, sni10949gl.wpc.edgecastcdn.net,03-04-2019,07-04-2021,31-03-2021,‎05 75 0d c7 89 90 1e 0d d3 50 b7 e1 d1 ca 1f 14,Working
+cdnwebapp.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+crmwebuat.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+devapp.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+email.indialends.com,email.secureserver.net,02-04-2019,02-04-2021,26-03-2021,00 e2 4a 82 7b 58 a4 6e 57,Working
+ilapiengine.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+ilapimgmtlive.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+ilauth.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+illoclivewebapp.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+ilproduction.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+ilwebsiteuat.indialends.com,*.azurewebsites.net,10-05-2019,10-05-2021,03-05-2021,‎05 4c 65 ff 6b 4e 12 38 90 53 3b 09 5c 71 79 cd,Working
+img.indialends.com,sni.msft.default.wpc.edgecastcdn.net,03-05-2018,23-03-2020,16-03-2020,‎01 55 76 d5 7f 73 47 b8 89 bc 31 b4 87 b8 61 d8,Working
+links.em1.indialends.com,links.em1.indialends.com,16-04-2019,16-04-2021,09-04-2021,‎4d 3e 6b d5 e2 7d c5 bc ed 90 8f 25 19 97 bc 91,Working
+locuatwebapp.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+mobileapi-live.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+mobileapi-stage.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+mobileapi-uat.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+mobileapilive.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+mobileapilive-staging.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+partners.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+partnerscc.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+partnerstaging.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+partnerwebapp.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+partnerwebuat.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+pyapi.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+sendgridmail.indialends.com,*.sendgrid.net,08-12-2018,07-02-2021,31-01-2021,‎00 a0 0a da 0e 50 86 99 f1,Working
+spends-dev.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+spends-offline.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+spends-online.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+spends-staging.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+staging.indialends.com,staging.indialends.com,02-05-2019,02-05-2021,25-04-2021,‎13 32 6c 75 f1 cd bf 35 ac 0c 04 85 0a 75 77 c0,Working
+uatweb.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+url3951.indialends.com,*.sendgrid.net,08-12-2018,07-02-2021,31-01-2021,‎00 a0 0a da 0e 50 86 99 f1,Working
+webapplive.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+webcclive.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+webccstaging.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working
+www.indialends.com,indialends.com,18-01-2019,11-04-2020,05-04-2020,10 80 5d e1 85 51 c0 12,Working
+em.indialends.com,*.chtah.com,18-04-2018,24-06-2020,17-06-2020,‎09 ac 92 94 bb b4 ad 76 64 47 cd 9d 6a 48 17 ca,Working
+linksem1.indialends.com,*.indialends.com,11-04-2017,11-04-2020,04-04-2020,‎4f 1e ff 94 81 51 ae 90 d7 17 d3 b2 cb 79 af b4,Working

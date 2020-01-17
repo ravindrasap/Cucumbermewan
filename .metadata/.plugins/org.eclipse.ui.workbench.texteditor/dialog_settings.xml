@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="Qualification" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="Qualification"/>
+			<item value="empType"/>
+			<item value="#pg"/>
+			<item value="Personal_Loan_Details"/>
+			<item value="CC_CITI_Page"/>
+			<item value="full_name"/>
+			<item value="#li_first_name"/>
+			<item value="#priority_cards &gt; div:nth-child(4) &gt; div.panel-body &gt; div:nth-child(4)&gt;div:nth-child(2) &gt;span&quot;"/>
+			<item value="btn_call_now_continue"/>
+			<item value="#btn_call_now_continue"/>
+			<item value="CR_Data.properties"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="284" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="391" key="DIALOG_HEIGHT"/>
+		<item value="1011" key="DIALOG_X_ORIGIN"/>
+		<item value="345" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

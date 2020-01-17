@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Test_Scrip_Cross_sell.CC_CITI_Crosssell_Script">
+        <methods>
+          <include name="tearDown"/>
+          <include name="CC_BasicDetailsPage"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- Test_Scrip_Cross_sell.CC_CITI_Crosssell_Script -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

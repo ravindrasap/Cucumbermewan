@@ -1,0 +1,11 @@
+[0905/152545.177:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0905/152749.897:ERROR:file_io_win.cc(161)] CreateFile C:\Users\RAVIND~1\AppData\Local\Temp\scoped_dir45240_18760\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0905/152749.900:ERROR:file_io_win.cc(170)] CreateFile C:\Users\RAVIND~1\AppData\Local\Temp\scoped_dir45240_18760\Crashpad\reports\3af9d403-d9a9-4e2b-b24c-785fc1bc3f60.dmp: The system cannot find the path specified. (0x3)
+[0905/152749.900:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0905/181046.460:ERROR:file_io_win.cc(161)] CreateFile C:\Users\RAVIND~1\AppData\Local\Temp\scoped_dir31044_23170\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
+[1002/170428.170:ERROR:file_io_win.cc(161)] CreateFile C:\Users\RAVIND~1\AppData\Local\Temp\scoped_dir25992_18881\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[1002/170428.195:ERROR:file_io_win.cc(170)] CreateFile C:\Users\RAVIND~1\AppData\Local\Temp\scoped_dir25992_18881\Crashpad\reports\51ff5bbf-0bca-483c-a662-961f38fe1602.dmp: The system cannot find the path specified. (0x3)
+[1002/170428.196:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[1002/171509.418:ERROR:file_io_win.cc(161)] CreateFile C:\Users\RAVIND~1\AppData\Local\Temp\scoped_dir5216_24543\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[1002/171509.421:ERROR:file_io_win.cc(170)] CreateFile C:\Users\RAVIND~1\AppData\Local\Temp\scoped_dir5216_24543\Crashpad\reports\3bca8dc5-a102-488d-919a-5db0f32f0181.dmp: The system cannot find the path specified. (0x3)
+[1002/171509.421:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed

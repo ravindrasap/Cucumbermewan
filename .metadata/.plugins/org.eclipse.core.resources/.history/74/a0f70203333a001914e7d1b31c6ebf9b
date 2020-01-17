@@ -1,0 +1,67 @@
+import org.openqa.selenium.WebDriver;
+import java.nio.CharBuffer;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import Utility.Base;
+
+public class Web {
+	public static WebDriver driver;
+	
+	
+	String salary="47000";
+	String pincode="110020";
+	String company="I";
+	
+	String loanamount="65000";
+	String DOB_year="1988";
+		
+	String Pan_NO="ABCPD1234E";
+		
+	
+	
+	@BeforeClass
+	public void set_UP()
+	{
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ravindrakumar\\eclipse-workspace\\IndiaLends_Sanity\\driver\\chromedriver.exe");
+		System.out.println("launching chrome browser");
+	
+		driver = new ChromeDriver();
+	//	driver.navigate().to("https://indialends.com/credit-cards/");
+		driver.navigate().to("http://demo.nopcommerce.com/");
+	//	driver.navigate().to("https://ilproduction.indialends.com/");
+		
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);	
+		driver.manage().window().maximize();
+}
+	
+	@Test(priority=0)
+	public void Select_Product_Form() throws Exception {
+		
+		 driver.findElement(By.id("small-searchterms")).sendKeys("Computer");
+		 
+		 driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS); 
+		 
+		 driver.findElement(By.cssSelector("#small-search-box-form > input.button-1.search-box-button")).click();
+		 
+		 
+		 JavascriptExecutor js = (JavascriptExecutor) driver;
+		 js.executeScript("window.scrollBy(0,1000)");
+		 
+		 
+		 driver.findElement(By.cssSelector("#body > div.master-wrapper-page > div.header-menu > ul:nth-child(1) > li:nth-child(2) > a")).click();
+		//Basic Details
+		driver.findElement(By.cssSelector("#li_first_name")).sendKeys("test MEENA");	
+		driver.findElement(By.cssSelector("#li_res_pin")).sendKeys(pincode);
+	}
+}

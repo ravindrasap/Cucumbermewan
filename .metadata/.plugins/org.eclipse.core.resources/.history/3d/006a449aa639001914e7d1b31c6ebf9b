@@ -1,0 +1,29 @@
+package Test_Scripts_IndiaLends;
+
+
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+
+import Page_Objects_IndiaLends.PL_Page;
+import Utility.Base;
+
+public class PL_Script extends Base
+{
+	@Test()
+	public void fillBasicDetailsPage() 
+	{
+		
+		System.out.println("Driver value inside fillBasicDetailsPage() method is "+ driver);
+		PL_Page detailsPage = PageFactory.initElements(driver, PL_Page.class);
+		detailsPage.enterBasicdetailsToCheckLoanEligibility();
+		detailsPage.enterAdditionaldetailsToCheckLoanEligibility();
+		detailsPage.enterGeneralInformation();
+		detailsPage.enterOfficeInformation();
+		detailsPage.enter_residential_information();
+		detailsPage.enter_employment_information();
+		
+		
+		
+	}
+}

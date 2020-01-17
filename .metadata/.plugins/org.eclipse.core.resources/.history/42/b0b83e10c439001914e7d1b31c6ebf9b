@@ -1,0 +1,35 @@
+import org.openqa.selenium.WebDriver;
+import java.nio.CharBuffer;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import Utility.Base;
+
+public class Web {
+	public static WebDriver driver;
+	
+	@BeforeClass
+	public void set_UP()
+	{
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ravindrakumar\\eclipse-workspace\\IndiaLends_Sanity\\driver\\chromedriver.exe");
+		System.out.println("launching chrome browser");
+	
+		driver = new ChromeDriver();
+	//	driver.navigate().to("https://indialends.com/credit-cards/");
+		driver.navigate().to("https://staging.indialends.com/");
+	//	driver.navigate().to("https://ilproduction.indialends.com/");
+		
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);	
+		driver.manage().window().maximize();
+}
+}

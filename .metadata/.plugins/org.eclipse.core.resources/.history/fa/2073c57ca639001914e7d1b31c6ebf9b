@@ -1,0 +1,381 @@
+package Page_Objects_IndiaLends;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import Utility.Base;
+
+public class PL_Page extends Base{
+	
+	protected WebDriver driver;
+	
+	//=========================== Basic Details Page Locators =============================================================== //
+	
+	@FindBy(how=How.CSS, using="#mainNav > div.container-fluid.md-pad10b.sm-pad0b > div.col-xs-12.col-sm-12.col-md-9.pad0 > div.collapse.navbar-collapse.navbar-ex1-collapse.pad10t.sm-pad0t.full-width > ul > li:nth-child(1) > a")
+	private WebElement clickPl;
+	
+	@FindBy(how=How.CSS, using="#li_display_name")
+	private WebElement FullName;
+	
+	@FindBy(how=How.CSS, using="#div_frmc>div>div>div:nth-child(4)>h1")
+	private WebElement header;
+	
+	@FindBy(how=How.CSS, using="#email")
+	private WebElement email;
+	
+	@FindBy(how=How.CSS, using="#pincode")
+	private WebElement pincode;
+	
+	@FindBy(how=How.CSS, using="#employment")
+	private WebElement employment;
+	
+	@FindBy(how=How.CSS, using="#salaried12")
+	private WebElement salaried;
+	
+	@FindBy(how=How.CSS, using="#companyName")
+	private WebElement companyname;
+	
+	@FindBy(how=How.CSS, using="#monthlyIncome")
+	private WebElement salary;
+	
+	@FindBy(how=How.CSS, using="#mobile")
+	private WebElement mobile;
+	
+	@FindBy(how=How.CSS, using="#li_submit")
+	private WebElement clickNextBtn;
+	
+	//=========================== Basic Details Page Locators End =============================================================== //
+	
+	//=========================== Otp Screen & I-lite Locators  =============================================================== //
+	
+	@FindBy(how=How.XPATH, using="//*[@id=\"txt_otp\"]")
+	private WebElement otptake;
+	
+	@FindBy(how=How.XPATH, using="//*[@id=\"btn_mobile_verify\"]")
+	private WebElement otpVerify;
+	
+	@FindBy(how=How.CSS, using="#control-indicator")
+	private WebElement terms;
+	
+	@FindBy(how=How.CSS, using="#btn_call_now_continue")
+	private WebElement iLite;
+	//=========================== Otp & I-lite Screen Locators End =============================================================== //
+	//===========================Additional details Locators ===================================================================== //
+	
+	@FindBy(how=How.CSS, using="#loanAmt")
+	private WebElement loanAmt;
+	
+	@FindBy(how=How.CSS, using="#div_gender > label > span")
+	private WebElement gender;
+	
+	/*@FindBy(how=How.CSS, using="//*[@id=\"dobYear\"]")
+	private WebElement DOB_Yr;*/
+	
+	@FindBy(how=How.CSS, using="#panNo")
+	private WebElement Pan_no;
+	
+	@FindBy(how=How.CSS, using="#div_payment_mode > div:nth-child(1) > label > span > span")
+	private WebElement salary_mode;
+	
+	@FindBy(how=How.CSS, using="#address")
+	private WebElement address;
+	
+	@FindBy(how=How.CSS, using="#locality")
+	private WebElement locality;
+	
+	@FindBy(how=How.CSS, using="#btn_continue")
+	private WebElement Click_btn;
+	
+	@FindBy(how=How.CSS, using="body > div.col-md-6.col-sm-8.xs-pad0.xs-pad30b > div > div > div:nth-child(4) > div > label > span > div > div > div > div.wrapping > div.col-lg-12.col-md-12.col-sm-12.pad0r.sm-pad0l > div.wrapping.text-l-sm.sm-marg10l.border-right-none-sm")
+	private WebElement offer_select;
+	
+	@FindBy(how=How.CSS, using="#div_offer_selected")
+	private WebElement offer_btn;
+	
+	//======================================== General Information Locators ========================================================= //
+	@FindBy(how=How.CSS, using="#div_general_panel > div.col-xs-12 > div > div:nth-child(2) > div.form-group.marg0b > div.radio-check-icon-pl > div.form-item.pad0l.col-xs-4.pad0r > label > span")
+	private WebElement education;
+	
+	@FindBy(how=How.CSS, using="#div_marital > label > span")
+	private WebElement marital;
+	
+	@FindBy(how=How.CSS, using="#div_loan_type > div.radio-check-icon-pl > div:nth-child(1) > label > span")
+	private WebElement loan_requirement;
+	
+	@FindBy(how=How.CSS, using="#btn_general")
+	private WebElement general_btn;
+	
+	//========================================= Office Information Locators ============================================================ //
+	@FindBy(how=How.CSS, using="#officePincode")
+	private WebElement office_pincode;
+	
+	@FindBy(how=How.CSS, using="#offAddress")
+	private WebElement office_address;
+	
+	@FindBy(how=How.CSS, using="#offLocality")
+	private WebElement office_locality;
+	
+	@FindBy(how=How.CSS, using="#btn_employment")
+	private WebElement office_btn;
+	
+	//=========================================== Residence Information ==============================================================//
+	@FindBy(how=How.CSS, using="#div_res_type > label > span")
+	private WebElement residence_type;
+	
+	@FindBy(how=How.CSS, using="#btn_residence")
+	private WebElement residence_btn;
+	
+	//============================================ Employment Information =========================================================== //
+	
+	@FindBy(how=How.CSS, using="#scroll_bank > div.radio-check-icon-pl > div:nth-child(1) > div > label > span.font10-xs.font12.display-block.pad5t")
+	private WebElement employment_bank;
+	
+	@FindBy(how=How.CSS, using="#scroll_cc > div.radio-check-icon-pl > div.form-item.pad10l.col-xs-6.pad5l.pad0r > label > span")
+	private WebElement employment_card;
+	
+	@FindBy(how=How.CSS, using="#btn_final")
+	private WebElement employment_btn;
+	
+		
+
+	public PL_Page(WebDriver driver) {
+		this.driver=driver;
+		PageFactory.initElements(driver, this);
+	}
+	
+	public void enterBasicdetailsToCheckLoanEligibility() 
+	{
+	// ========== Verify Basic Details Page Header =================================//
+	/*	WebDriverWait wait = new WebDriverWait(driver, 20);
+		wait.until(ExpectedConditions.visibilityOf(header));
+		String headerText = header.getText();
+		Assert.assertEquals(headerText, "Check Loan Eligibility by providing your basic details");*/
+	try {
+			clickPl.click();
+			FullName.sendKeys(Base.loadPropertiesFile("PL_Data.properties", "full_name"));
+			email.sendKeys(Base.loadPropertiesFile("PL_Data.properties", "email"));
+			pincode.sendKeys(Base.loadPropertiesFile("PL_Data.properties", "pincode"));
+			employment.click();
+			Thread.sleep(2000);
+			salaried.click();
+		
+			JavascriptExecutor js1 = (JavascriptExecutor) driver;
+			js1.executeScript("window.scrollBy(0,400)");
+			 
+			companyname.sendKeys(Base.loadPropertiesFile("PL_Data.properties", "company"));
+			
+			WebDriverWait wait = new WebDriverWait(driver, 20);
+			wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.cssSelector("#companyName"))));
+			
+			WebElement textbox = driver.findElement(By.cssSelector("#companyName"));
+			textbox.sendKeys(Keys.ENTER);
+			
+			Thread.sleep(8000);
+			salary.sendKeys(Base.loadPropertiesFile("PL_Data.properties", "salary"));
+			mobile.sendKeys(mobileno);
+			//System.out.println(mobileno);
+			clickNextBtn.click();
+			Thread.sleep(4000);
+			
+	} catch (Exception e1) {
+		
+		    System.out.println("Failed on Baisc Detailed Page :"+e1.getMessage());
+	}
+		
+   //==============  OTP Verify =================================================== //
+		
+	try {
+		String passwrd = Utility.Otp_Call.request_otp(otpURL, mobileno);
+		System.out.println("Mobile no is:"+mobileno);
+		System.out.println("OTP Is:"+passwrd);
+		
+		otptake.sendKeys(passwrd);
+		terms.click();
+		otpVerify.click();
+		
+		Thread.sleep(3000);
+		System.out.println("Sucessfully submitted OTP");
+	} catch (Exception e) {
+		
+		System.out.println("Otp screen failure "+e.getMessage());
+	}
+	
+ //================ I-lite screen click ============================================= //
+	JavascriptExecutor js3 = (JavascriptExecutor) driver;
+	js3.executeScript("window.scrollBy(0,400)");
+	
+	WebDriverWait wait = new WebDriverWait(driver, 20);
+	wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.cssSelector("#btn_call_now_continue"))));
+			
+	iLite.click();
+	
+	}	
+	
+	public void enterAdditionaldetailsToCheckLoanEligibility()
+	{
+	
+	//Additional details
+	
+	try {
+		loanAmt.sendKeys(Base.loadPropertiesFile("PL_Data.properties", "Loan_Amt"));
+		gender.click();
+		
+		/*WebElement dobDD = driver.findElement(By.name("dobDate"));
+		Select select = new Select(dobDD);
+		select.selectByValue("05");*/
+		
+		//DOB Fileds
+		driver.findElement(By.cssSelector("#frm > div > div > div:nth-child(2) > div.col-xs-4.pad0l > div > div.select-selected")).click();
+	    driver.findElement(By.cssSelector("#frm > div > div > div:nth-child(2) > div.col-xs-4.pad0l > div > div.select-items > div:nth-child(3)")).click();
+		
+		driver.findElement(By.cssSelector("#frm > div > div > div:nth-child(2) > div.col-xs-4.pad0 > div > div.select-selected")).click();
+		driver.findElement(By.cssSelector("#frm > div > div > div:nth-child(2) > div.col-xs-4.pad0 > div > div.select-items > div:nth-child(3)")).click();
+		
+		
+		WebElement DOBYr= driver.findElement(By.xpath("//*[@id=\"dobYear\"]"));		
+		Select dropdown=new Select(DOBYr);
+		dropdown.selectByVisibleText(Base.loadPropertiesFile("PL_Data.properties", "DOB_Year"));
+		//Thread.sleep(4000);
+		
+		Pan_no.sendKeys(Base.loadPropertiesFile("PL_Data.properties", "Pan_no"));
+		salary_mode.click();
+		address.sendKeys(Base.loadPropertiesFile("PL_Data.properties", "address"));
+		locality.sendKeys(Base.loadPropertiesFile("PL_Data.properties", "locality"));
+		//Thread.sleep(4000);
+		JavascriptExecutor js3 = (JavascriptExecutor) driver;
+		js3.executeScript("window.scrollBy(0,400)");
+		
+		//Cibil Scenario for UAT Only
+		/*driver.findElement(By.cssSelector("#frm > div > div > div:nth-child(2) > div:nth-child(26) > div > div.select-selected")).click();
+		driver.findElement(By.cssSelector("#frm > div > div > div:nth-child(2) > div:nth-child(26) > div > div.select-items > div:nth-child(1)")).click();*/
+		Click_btn.click();
+		Thread.sleep(2000);
+        driver.findElement(By.cssSelector("#btn_update_continue")).click();
+		System.out.println("Additional details form submited");
+		Thread.sleep(3000);
+		//Select Offer
+		offer_select.click();
+		offer_btn.click();
+		
+		System.out.println("Offer screen submitted");
+		Thread.sleep(2000);
+		
+	} catch (Exception e) {
+		
+		System.out.println("Additional details page failure "+e.getMessage());
+	}
+}
+	public void enterGeneralInformation() {
+		
+		try {
+			education.click();
+			marital.click();
+			loan_requirement.click();
+			general_btn.click();
+
+			System.out.println("Genral information sucessfully submitted");
+			Thread.sleep(4000);
+		} catch (Exception e) {
+			
+			System.out.println("Failure occur in Genral information form: "+e.getMessage());
+		}
+	}
+	
+	public void enterOfficeInformation() {
+		
+		try {
+			   driver.findElement(By.cssSelector("#scroll_off_year > div:nth-child(3) > div > div.select-selected")).click();
+			   driver.findElement(By.cssSelector("#scroll_off_year > div:nth-child(3) > div > div.select-items > div:nth-child(1)")).click(); // 0 year
+				
+				driver.findElement(By.cssSelector("#lbl_currentExpmMonths > div.select-selected")).click();
+				driver.findElement(By.cssSelector("#lbl_currentExpmMonths > div.select-items > div:nth-child(7)")).click(); // 6 months
+				
+				
+				     
+				office_pincode.sendKeys(Base.loadPropertiesFile("PL_Data.properties", "office_pincode"));
+				Thread.sleep(2000);
+				office_address.sendKeys(Base.loadPropertiesFile("PL_Data.properties", "office_address"));
+				office_locality.sendKeys(Base.loadPropertiesFile("PL_Data.properties", "office_locality"));
+				
+				JavascriptExecutor js3 = (JavascriptExecutor) driver;
+				js3.executeScript("window.scrollBy(0,400)");
+				
+				/*WebElement TotalYr=driver.findElement(By.cssSelector("#totalExpYrs"));
+				Select TotalYear=new Select(TotalYr);
+				TotalYear.selectByVisibleText("4");
+				
+				
+				WebElement TotalMon=driver.findElement(By.cssSelector("#totalExpMonth"));
+				Select TotalMonth=new Select(TotalMon);
+				TotalMonth.selectByVisibleText("04");*/
+				
+				//Total Years Of exp
+				driver.findElement(By.cssSelector("#lbl_totalExpYrs > div.select-selected")).click();
+				driver.findElement(By.cssSelector("#lbl_totalExpYrs > div.select-items > div:nth-child(1)")).click();  // 0 year
+				
+				driver.findElement(By.cssSelector("#lbl_totalExpMonths > div.select-selected")).click();
+				driver.findElement(By.cssSelector("#lbl_totalExpMonths > div.select-items > div:nth-child(7)")).click(); 
+				
+				office_btn.click(); 
+				
+				Thread.sleep(2000);
+				
+				System.out.println("Office information sucessfully submitted");
+		} catch (Exception e) {
+			
+			    System.out.println("Failure occure in office information: "+e.getMessage());
+		}
+	}
+	
+	public void enter_residential_information() {
+		try {
+			residence_type.click();  //owned house
+			//Rented
+			//driver.findElement(By.cssSelector("#div_residence_panel > div.col-xs-12 > div > div:nth-child(2) > div:nth-child(1) > div.radio-check-icon-pl > div:nth-child(1) > label > span")).click();
+			
+			driver.findElement(By.cssSelector("#scroll_res_years > div.col-xs-6.pad0l > div > div.select-selected")).click();
+			driver.findElement(By.cssSelector("#scroll_res_years > div.col-xs-6.pad0l > div > div.select-items > div:nth-child(1)")).click();
+			
+			driver.findElement(By.cssSelector("#lbl_monthAddress > div.select-selected")).click();
+			driver.findElement(By.cssSelector("#lbl_monthAddress > div.select-items > div:nth-child(7)")).click();
+			
+			residence_btn.click();
+			
+			System.out.println("Residence information sucessfully submitted");
+			Thread.sleep(2000);
+		} catch (Exception e) {
+			
+			System.out.println("Failure occur in resedentail information: "+e.getMessage());
+		}
+	}
+	
+	public void enter_employment_information() {
+		
+		try {
+			employment_bank.click();
+			employment_card.click();
+			employment_btn.click();
+			
+			System.out.println("Employment information sucessfully submitted");
+		} catch (Exception e) {
+			System.out.println("Failure occur in employment information: "+e.getMessage());
+		}
+		
+	}
+}
+	
+
+
+
+
+
+

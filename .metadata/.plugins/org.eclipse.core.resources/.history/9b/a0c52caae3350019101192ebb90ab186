@@ -1,0 +1,24 @@
+package Test_Scripts_IndiaLends;
+
+
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import Utility.Base;
+
+public class ICICI_CCGenericScript extends Base {
+	
+	@Test()
+	public void fillBasicDetailsPage() throws Exception 
+	{
+		
+		System.out.println("Driver valueE inside fillBasicDetailsPage() method is "+ driver);
+		//Page_Object_IL.CC_AMEX_Page detailsPage = PageFactory.initElements(driver, Page_Object_IL.CC_AMEX_Page.class);
+		Page_Objects_IndiaLends.ICICI_CCGenericPage detailsPage = PageFactory.initElements(driver, Page_Objects_IndiaLends.ICICI_CCGenericPage.class);
+		detailsPage.enterBasicdetailsToCheckLoanEligibility();
+		detailsPage.check_Eligibility();
+		detailsPage.general_Information();
+		detailsPage.contact_Details();
+	}
+
+}

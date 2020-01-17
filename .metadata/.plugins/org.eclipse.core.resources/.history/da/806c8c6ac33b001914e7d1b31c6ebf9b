@@ -1,0 +1,138 @@
+import org.openqa.selenium.WebDriver;
+import java.nio.CharBuffer;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import Utility.Base;
+
+public class Web {
+	public static WebDriver driver;
+	
+	
+	String salary="47000";
+	String pincode="110020";
+	String company="I";
+	
+	String loanamount="65000";
+	String DOB_year="1988";
+		
+	String Pan_NO="ABCPD1234E";
+		
+	
+	
+	@BeforeClass
+	public void set_UP()
+	{
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ravindrakumar\\eclipse-workspace\\IndiaLends_Sanity\\driver\\chromedriver.exe");
+		System.out.println("launching chrome browser");
+	
+		driver = new ChromeDriver();
+	//	driver.navigate().to("https://indialends.com/credit-cards/");
+		driver.navigate().to("http://demo.nopcommerce.com/");
+	//	driver.navigate().to("https://ilproduction.indialends.com/");
+		
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);	
+		driver.manage().window().maximize();
+}
+	
+	@Test(priority=0)
+	public void Select_Product_Form() throws Exception {
+		
+		 driver.findElement(By.id("small-searchterms")).sendKeys("Computer");
+		 
+		 driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS); 
+		 
+		 driver.findElement(By.cssSelector("#small-search-box-form > input.button-1.search-box-button")).click();
+		 
+		 
+		 JavascriptExecutor js = (JavascriptExecutor) driver;
+		 js.executeScript("window.scrollBy(0,700)");
+		 
+		 
+		 driver.findElement(By.linkText("ADD TO CART")).click();
+		 
+		// JavascriptExecutor js = (JavascriptExecutor) driver;
+		 js.executeScript("window.scrollBy(0,500)");
+		
+		 // select HDD
+		 driver.findElement(By.id("product_attribute_3_6")).click();
+		 
+		 //add to cart
+		 driver.findElement(By.id("add-to-cart-button-1")).click();
+		 // page scroll up
+		 js.executeScript("window.scrollBy(0,0)");
+		 
+		 driver.findElement(By.cssSelector("#topcartlink > a > span.cart-label")).click();
+		 
+		 js.executeScript("window.scrollBy(0,700)");
+		 
+		  driver.findElement(By.xpath("//*[@id=\"termsofservice\"]")).click();
+		 
+		  driver.findElement(By.xpath("//*[@id=\"checkout\"]")).click();
+		 
+		  Thread.sleep(3000);
+		 
+		  
+		  // register the user
+		  
+		  driver.findElement(By.linkText("button-1 register-button")).click();
+		 
+		  Thread.sleep(2000);
+		  driver.findElement(By.xpath("//*[@id=\"gender-male\"]")).click();
+		  
+		  driver.findElement(By.cssSelector("#FirstName")).sendKeys("Test");
+		  driver.findElement(By.cssSelector("#LastName")).sendKeys("Kumar");
+		  
+		  
+		  // DOB
+		  
+		  WebElement day=driver.findElement(By.cssSelector("#DateOfBirthDay"));
+			Select dropdown11=new Select(day);
+			dropdown11.selectByVisibleText("02");
+			
+			WebElement month=driver.findElement(By.cssSelector("#DateOfBirthMonth"));
+			Select mon=new Select(month);
+			mon.selectByVisibleText("FEB - 02");
+			
+			WebElement year=driver.findElement(By.cssSelector("#DateOfBirthYear"));
+			Select yy=new Select(year);
+			yy.selectByVisibleText("1990");
+			
+			
+			driver.findElement(By.cssSelector("#Email")).sendKeys("tets@gmail.com");
+			
+			
+			js.executeScript("window.scrollBy(0,700)");
+		 
+		     driver.findElement(By.cssSelector("#Password")).sendKeys("test123");
+		     driver.findElement(By.cssSelector("#ConfirmPassword")).sendKeys("test123");
+		     
+		     driver.findElement(By.cssSelector("//*[@id=\"register-button\"]")).click();
+		     
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 driver.findElement(By.cssSelector("#body > div.master-wrapper-page > div.header-menu > ul:nth-child(1) > li:nth-child(2) > a")).click();
+		//Basic Details
+		driver.findElement(By.cssSelector("#li_first_name")).sendKeys("test MEENA");	
+		driver.findElement(By.cssSelector("#li_res_pin")).sendKeys(pincode);
+	}
+}
