@@ -22,7 +22,7 @@ public class AmexCreditcard {
 	// live
       String otpURL="https://v.indialends.com/test/get_otp_user_registration_encrypt.ashx?type=json&mobileno=";
 	
-	//UAT	
+	//UAT	/////////
 	//	String otpURL="http://uat.indialends.com/internal/a/get_otp_mail_verify_api.ashx?mobileno=";
 	
 	String salary="47000";
