@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+ 
+<suite name="loginTesting" >
+	 <test name="Empirix login details">
+			<classes>
+				<class name="Logindetails"></class>	
+			</classes>
+</test>  
+	
+<!-- 	<suite name="loginTesting" parallel ="tests" thread-count="3"> -->
+	
+ <test name="Empirix login details">
+   <parameter name="browserName" value="chrome"></parameter>
+    <classes>     
+      <class name="Logindetails"/>
+    </classes>
+ 
+  </test>  
+  
+  <test name="Empirix login details">
+   <parameter name="browserName" value="firefox"></parameter>
+    <classes>     
+      <class name="Logindetails"/>
+    </classes>
+ 
+  </test> 
+  
+    <test name="Empirix login details">
+   <parameter name="browserName" value="Edge"></parameter>
+    <classes>
+     
+      <class name="Logindetails"/>
+    </classes>
+ 
+  </test>   
+    	
+</suite>

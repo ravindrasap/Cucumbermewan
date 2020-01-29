@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browserName" value="IE"/>
+  <test name="testonfirefox(failed)" parallel="tests">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="Script_test.Multybrowser">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="loginEnGR"/>
+          <include name="startUp"/>
+          <include name="startUp"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- Script_test.Multybrowser -->
+    </classes>
+  </test> <!-- testonfirefox(failed) -->
+  <test name="testonIE(failed)" parallel="tests">
+    <parameter name="browserName" value="IE"/>
+    <classes>
+      <class name="Script_test.Multybrowser">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="loginEnGR"/>
+          <include name="startUp"/>
+          <include name="startUp"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- Script_test.Multybrowser -->
+    </classes>
+  </test> <!-- testonIE(failed) -->
+  <test name="testonchrome(failed)" parallel="tests">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="Script_test.Multybrowser">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="loginEnGR"/>
+          <include name="startUp"/>
+          <include name="startUp"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- Script_test.Multybrowser -->
+    </classes>
+  </test> <!-- testonchrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

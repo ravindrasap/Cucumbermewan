@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="85302" started-at="2020-01-29T18:23:45Z" finished-at="2020-01-29T18:25:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="85302" started-at="2020-01-29T18:23:45Z" finished-at="2020-01-29T18:25:10Z">
+      <class name="Pageobject.java.Logindetail">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:Pageobject.java.Logindetail@1e88b3c]" name="startUp" is-config="true" duration-ms="21823" started-at="2020-01-29T23:53:45Z" finished-at="2020-01-29T23:54:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="loginPage()[pri:0, instance:Pageobject.java.Logindetail@1e88b3c]" name="loginPage" duration-ms="8599" started-at="2020-01-29T23:54:07Z" finished-at="2020-01-29T23:54:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="serchproduct()[pri:0, instance:Pageobject.java.Logindetail@1e88b3c]" name="serchproduct" duration-ms="22466" started-at="2020-01-29T23:54:16Z" finished-at="2020-01-29T23:54:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serchproduct -->
+        <test-method status="PASS" signature="productorderplace()[pri:0, instance:Pageobject.java.Logindetail@1e88b3c]" name="productorderplace" duration-ms="9760" started-at="2020-01-29T23:54:38Z" finished-at="2020-01-29T23:54:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productorderplace -->
+        <test-method status="PASS" signature="orderhistory()[pri:0, instance:Pageobject.java.Logindetail@1e88b3c]" name="orderhistory" duration-ms="15601" started-at="2020-01-29T23:54:48Z" finished-at="2020-01-29T23:55:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderhistory -->
+        <test-method status="PASS" signature="MyAccount()[pri:0, instance:Pageobject.java.Logindetail@1e88b3c]" name="MyAccount" duration-ms="6993" started-at="2020-01-29T23:55:03Z" finished-at="2020-01-29T23:55:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyAccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Pageobject.java.Logindetail@1e88b3c]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-01-29T23:55:10Z" finished-at="2020-01-29T23:55:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Pageobject.java.Logindetail -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
